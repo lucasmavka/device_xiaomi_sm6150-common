@@ -327,9 +327,31 @@ vendor/firmware/a630_sqe.fw
 -vendor/lib/libpn553_fw.so
 
 # Sensors
+-system/system/lib64/android.hardware.sensors@1.0.so
+-system/system/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
+-system/system/lib64/android.hardware.sensors@2.0.so
+-system/system/lib64/android.hardware.sensors@2.1.so
+-system/system/lib64/libsensor.so
+-system/system/lib64/libsensor_cal.so
+-system/system/lib64/libsensor_calJNI.so
+-system/system/lib64/libsensorprivacy.so
+-system/system/lib64/libsensorservice.so
+-system/system/lib64/libsensorservicehidl.so
+-vendor/bin/hw/android.hardware.sensors@1.0-service
 -vendor/bin/sensors.qti
+vendor/etc/init/android.hardware.sensors@1.0-service.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
+vendor/etc/permissions/android.hardware.sensor.accelerometer.xml
+vendor/etc/permissions/android.hardware.sensor.compass.xml
+vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
+vendor/etc/permissions/android.hardware.sensor.light.xml
+vendor/etc/permissions/android.hardware.sensor.proximity.xml
+vendor/etc/permissions/android.hardware.sensor.stepcounter.xml
+vendor/etc/permissions/android.hardware.sensor.stepdetector.xml
+-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
+-vendor/lib64/libsensorcal.so
+-vendor/lib64/libsensorndkbridge.so
 -vendor/lib64/libsensorslog.so
 -vendor/lib64/libsns_fastRPC_util.so
 -vendor/lib64/libsns_low_lat_stream_stub.so
